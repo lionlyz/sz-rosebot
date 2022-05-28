@@ -170,8 +170,8 @@ disable9 : "Tidak ada item yang dinonaktifkan!"
 disable10 : "Kamu bahkan bukan admin, jangan coba omong kosong yang meledak-ledak ini!"
 disable11 : "Ini tidak dinonaktifkan!"
 
-plugin - flood.py
-flood1 : "Bayangkan obrolan di depan saya membanjiri, Dibisukan {} selama satu jam!"
+#plugin - flood.py
+flood1 : "Bayangkan obrolan di depan saya membanjiri, Dibisukan {} selama satu jam"
 flood2 : "Anda tidak memiliki cukup izin untuk melakukan tindakan ini.\nIzin diperlukan: {}"
 flood3 : "Penggunaan: /flood [ENABLE|DISABLE]"
 flood4 : "Mengaktifkan Pemeriksa Banjir."
