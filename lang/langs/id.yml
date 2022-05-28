@@ -1,9 +1,8 @@
+---
 name : Indonesia
-
 #menu - menu.py
 menu : "Rose dibuat pada **10 Agustus 2021**. Saat ini kami sedang mengembangkan dan memelihara plugin **WilliamButcherBot** dan **Alita_Robot**, hanya menggunakan library **Pyrogram**.\n\n • **Owner** : [rey](https://t.me/Rehan_226)\n• **Founder** : [div](https://t.me/divmas)\n• **Language** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Build Version** : `2.0`"
 back : "« Back"
-
 #main - main.py
 main1 : " Halo ! Saya {} \n\nBot manajemen grup telegram tingkat lanjut Untuk bantuan \nAnda Melindungi Grup & Sesuai dengan Semua Kebutuhan Anda."
 main2 : "**PM saya jika Anda memiliki pertanyaan bagaimana menggunakan saya!**"
