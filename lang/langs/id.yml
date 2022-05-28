@@ -8,7 +8,7 @@ main1 : " Halo ! Saya {} \n\nBot manajemen grup telegram tingkat lanjut Untuk ba
 main2 : "**PM saya jika Anda memiliki pertanyaan bagaimana menggunakan saya!**"
 main3 : "Klik disini"
 main4 : "Klik tombol di bawah ini untuk mendapatkan bantuan tentang {}"
-main5 : "**Selamat datang di menu bantuan**\n\nSaya bot manajemen grup dengan beberapa fitur yang berguna Anda dapat memilih opsi di bawah ini, dengan mengeklik tombol"
+main5 : "**Selamat datang di menu bantuan**\n\nSaya bot manajemen grup\ndengan beberapa fitur yang berguna Anda dapat memilih opsi di bawah ini, dengan mengeklik tombol di bawah [❗](https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg)"
 main6 : "Inilah bantuan untuk **{}**"
 
 #plugin - admin.py
