@@ -40,21 +40,7 @@ keyboard =InlineKeyboardMarkup(
                 text="English🇬🇧", callback_data="languages_en"
             ),
             InlineKeyboardButton(
-                text="සිංහල🇱🇰", callback_data="languages_si"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="हिन्दी🇮🇳", callback_data="languages_hi"
-            ),
-            InlineKeyboardButton(
-                text="Italiano🇮🇹", callback_data="languages_it"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
+                text="Indonesia🇮🇩", callback_data="languages_id"
             )
         ],
         [
