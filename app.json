@@ -61,7 +61,7 @@
         },
         "ARQ_API_KEY": {
             "description": "Get this from @ARQRobot.",
-            "vule": "HDHMRZ-KYXULR-SGCELP-YKMWSC-ARQ",
+            "vulue": "HDHMRZ-KYXULR-SGCELP-YKMWSC-ARQ",
             "required": true
         },
         "COMMAND_PREFIXES": {
