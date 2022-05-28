@@ -20,21 +20,7 @@ keyboard = InlineKeyboardMarkup(
                 text="English🇬🇧", callback_data="languages_en"
             ),
             InlineKeyboardButton(
-                text="සිංහල🇱🇰", callback_data="languages_si"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="हिन्दी🇮🇳", callback_data="languages_hi"
-            ),
-            InlineKeyboardButton(
-                text="Italiano🇮🇹", callback_data="languages_it"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
+                text="Indonesia🇮🇩", callback_data="languages_id"
             )
         ],
         [
@@ -111,9 +97,8 @@ Not every group speaks fluent english; some groups would rather have Rose respon
 This is where translations come in; you can change the language of most replies to be in the language of your choice!
 
 **Available languages are:**
-- हिन्दी🇮🇳
 - English🇬🇧
-- සිංහල🇱🇰
+- Indonesia🇮🇩
 
 **Admin commands:**
 - /lang : Set your preferred language.
@@ -125,21 +110,7 @@ __helpbtns__ = (
                 text="English🇬🇧", callback_data="languages_en"
             ),
             InlineKeyboardButton(
-                text="සිංහල🇱🇰", callback_data="languages_si"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="हिन्दी🇮🇳", callback_data="languages_hi"
-            ),
-            InlineKeyboardButton(
-                text="Italiano🇮🇹", callback_data="languages_it"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
+                text="Indonesia🇮🇩", callback_data="languages_id"
             )
         ],
         [
