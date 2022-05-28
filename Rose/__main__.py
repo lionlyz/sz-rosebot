@@ -56,7 +56,7 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
+|         (C) 2021-2022 by @divmas            | 
 |          Greetings from supun  :)           |
 |_____________________________________________|  
                                                                                                
@@ -107,12 +107,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🌐 My Website",
-                url=f"https://szrosebot.ml",
-            ),
-            InlineKeyboardButton(
-                text="🔰News Channel",
-                url=f"https://t.me/szroseupdates",
+                text="Groups",
+                url=f"https://t.me/+zLmyKTjpelQzZDVl",
             )
         ],
     ]
@@ -187,7 +183,7 @@ async def start(client, message: Message, _):
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
 ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @divmas
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -279,7 +275,7 @@ You Protect Your Groups & Suit For All Your Needs.
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @divmas
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -293,8 +289,6 @@ async def help_parser(name, keyboard=None):
 **Welcome to help menu**
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
 **All commands can be used with the following: / **""",
         keyboard,
     )
@@ -330,7 +324,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @divmas"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
