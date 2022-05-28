@@ -383,3 +383,54 @@ async def invitelink(client, message):
         return
     await message.reply_text(f"**Invite link generated successfully** \n {invitelink}")
 
+
+
+
+
+__MODULE__ = "Music"
+__HELP__ = """
+**A Telegram Music+Video Streaming bot with some useful features.**
+
+**Few Features Here**[?](https://t.me/streaming_robot)
+
+- Zero lagtime Video + Audio + live stream player.
+- Working Queue and Interactive Queue Checker.
+- Youtube Downloader Bar.
+- Auth Users Function .
+- Download Audios/Videos from Youtube.
+- Multi Assistant Mode for High Number of Chats.
+- Interactive UI, Fonts and Thumbnails.
+- Channel player.
+
+"""
+__helpbtns__ = (
+        [[
+            InlineKeyboardButton
+                (
+                    "Admin Commands", callback_data="_adc"
+                ),            
+            InlineKeyboardButton
+                (
+                    "Bot Commands", callback_data="_bcd"
+                ) 
+        ],
+        [
+            InlineKeyboardButton
+                (
+                    "Extra commands", callback_data="_ecd"
+                ),            
+            InlineKeyboardButton
+                (
+                    "Play Commands", callback_data="_pcd"
+                )  
+        ], 
+        [
+            InlineKeyboardButton
+                (
+                    "Original Bot", callback_data="_aci"
+                )
+        ]
+    ]
+)
+
+
