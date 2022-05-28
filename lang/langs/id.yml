@@ -1,3 +1,75 @@
 name : indonesia
+
 #menu - menu.py
-menu : "Rose dibuat pada **10 Agustus 2021**. Saat ini kami sedang mengembangkan dan memelihara plugin **WilliamButcherBot** dan **Alita_Robot**, hanya menggunakan library **Pyrogram**.\n\n • **Pemilik** 
+menu : "Rose dibuat pada **10 Agustus 2021**. Saat ini kami sedang mengembangkan dan memelihara plugin **WilliamButcherBot** dan **Alita_Robot**, hanya menggunakan library **Pyrogram**.\n\n • **Owner** : [rey](https://t.me/Rehan_226)\n• **Founder** : [div](https://t.me/divmas)\n• **Language** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Build Version** : `2.0`"
+back : "« Back"
+
+#main - main.py
+main1 : " Halo ! Saya {} \n\nBot manajemen grup telegram tingkat lanjut Untuk bantuan \nAnda Melindungi Grup & Sesuai dengan Semua Kebutuhan Anda."
+main2 : "**PM saya jika Anda memiliki pertanyaan bagaimana menggunakan saya!**"
+main3 : "Klik disini"
+main4 : "Klik tombol di bawah ini untuk mendapatkan bantuan tentang {}"
+main5 : "**Selamat datang di menu bantuan**\in\Saya bot manajemen grup dengan beberapa fitur yang berguna.\nAnda dapat memilih opsi di bawah ini\nAnda dapat memilih opsi di bawah ini, dengan mengeklik tombol. **"
+main6 : "Inilah bantuan untuk **{}**"
+
+#plugin - admin.py
+admin1 : "Gunakan /kirim dengan teks atau dengan membalas pesan."
+admin2 : "Saya tidak bisa mempromosikan diri saya sendiri."
+admin3 : "Saya tidak memiliki izin yang cukup"
+admin4 : "Saya tidak bisa menurunkan diri saya sendiri."
+admin5 : "Menemukan hantu..."
+admin6 : "Tidak ada akun yang dihapus di chat ini"
+admin7 : "Penggunaan:\n/setgrouptitle NAMA BARU"
+admin8 : "Balas pesan pengguna untuk mengatur judul adminnya"
+admin9 : "Saya tidak dapat mengubah judul admin dari entitas yang tidak dikenal"
+admin10 : "Penggunaan:\n/settitle JUDUL ADMINISTRATOR BARU"
+admin11 : "Balas foto untuk dijadikan chat_photo"
+admin12 : "Balas foto atau dokumen untuk dijadikan chat_photo"
+admin13 : "Ukuran file terlalu besar."
+admin14 : "Berhasil Mengubah Foto Grup"
+admin15 : "Perintah ini dibuat untuk digunakan dalam grup saja!"
+admin16 : "Hanya dapat memuat ulang cache admin sekali per 10 menit!"
+admin17 : "Daftar admin dimuat ulang !"
+admin18 : "promosi tinggi! {} di sini !"
+admin19 : "Saya tidak dapat menemukan pengguna itu."
+admin20 : "Promosi menengah! {} di sini !"
+admin21 : "Dipromosikan ! {} di sini"
+admin22 : "Diturunkan ! {} di sini"
+admin23 : "Banned {} Akun yang Dihapus"
+admin24 : "Berhasil Mengubah Judul Grup Dari {} Menjadi {}"
+admin25 : "Balas pesan pengguna untuk mengatur judul adminnya"
+admin26 : "Saya tidak dapat mengubah judul admin dari entitas yang tidak dikenal"
+admin27 : "Penggunaan:\n/settitle JUDUL ADMINISTRATOR BARU"
+admin28 : "Berhasil Mengubah Judul Admin {} Menjadi {}"
+admin29 : "Balas foto untuk dijadikan chat_photo"
+admin30 : "Balas foto atau dokumen untuk dijadikan chat_photo"
+admin31 : "Ukuran file terlalu besar."
+admin32 : "Berhasil Mengubah Foto Grup"
+
+#plugin - antichannel.py
+antic1 : "Saya tidak mengerti /antichannel on dan /antichannel off only"
+antic2 : "Mode Anti Saluran diaktifkan .\n\n Saya akan menghapus semua pesan ketika seseorang mengirim pesan dengan nama saluran"
+antic3 : "Mode Anti Channel Sudah Diaktifkan Di Chat Ini"
+antic4 : "Mode Anti Channel Berhasil Dinonaktifkan Di Chat "
+antic5 : "Anti Channel Tidak Diaktifkan Di Chat Ini"
+antic6 : "Pesan anti-saluran terdeteksi. Saya menghapusnya..!\n\n• Id Saluran = {} \n• Nama Saluran = {} "
+
+#plugin - antiservice.py
+serv1 : "Penggunaan: /antiservice [aktifkan | nonaktifkan]"
+serv2 : "Sistem AntiService yang Diaktifkan. Saya akan Menghapus Pesan Layanan dari Sekarang."
+serv3 : "Sistem AntiService Dinonaktifkan. Saya tidak akan Menghapus Pesan Layanan mulai Sekarang."
+serv4 : "Suffix Tidak Dikenal, Gunakan /antiservice [aktifkan|nonaktifkan]"
+
+#plugin - antispoiler.py
+spoil1 : "Saya tidak mengerti /antispoiler on dan /antispoiler off only"
+spoil2 : "Sedang diproses..."
+spoil3 : "Mode Anti-spoiler diaktifkan .\n\n Saya akan menghapus semua pesan ketika seseorang mengirim pesan dengan spoiler"
+spoil4 : "Mode Anti-spoiler Sudah Diaktifkan Di Chat Ini"
+spoil5 : "Mode Anti-spoiler Berhasil Dinonaktifkan Di Chat "
+spoil6 : "Anti-spoiler Tidak Diaktifkan Dalam Obrolan Ini"
+spoil7 : "pesan spoiler terdeteksi. Saya menghapusnya..!"
+
+
+
+
+
