@@ -342,7 +342,7 @@ flood2 : "Saya akan Mute jika pengguna mengirim lebih dari 10 pesan berturut-tur
 flood3 : "Nonaktif ! Tidak ada bisu jika pengguna mengirim lebih dari 10 pesan berturut-turut "
 flood4 : "Suffix Tidak Diketahui, Gunakan /flood [ENABLE|DISABLE]"
 
-plugin filters.py
+#plugin filters.py
 filter1 : "Pastikan aku hadir di grupmu!!"
 filter2 : "Saya tidak terhubung ke grup mana pun!"
 filter3 : "Perintah Tidak Lengkap :( Gunakan menu Bantuan lagi"
