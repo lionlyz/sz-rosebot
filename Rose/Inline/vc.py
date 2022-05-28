@@ -139,20 +139,9 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()    
 
 supunmasc = """
-We was added **Multi Assistant Mode** for High Number of Chats.
-
-👮‍♀️ **OFFICIAL Assistants**:-
-• Assistant 1️⃣ :- @vcpalyassistant
-• Assistant 2️⃣ :- @vcpalyassistant1
-• Assistant 3️⃣ :- @vcpalyassistant2
-• Assistant 4️⃣ :- @vcpalyassistant3
-• Assistant 5️⃣ :- @vcpalyassistant4
-
+OFFICIAL BOT @streaming_robot
 **Credits** - 
--「🇮🇳」°『||ᴀᴅ•✘•ᴍᴜꜱɪᴄ||』
-- @not_just_Nikhil
-👨‍💻 - Please Don't add all assistant to your group use 1
-And also we remove assistant monthly in all groups.
+-「🇮🇩」°『||div||』
 """
 @app.on_callback_query(filters.regex("_aci"))
 async def commands_callbacc(_, CallbackQuery):
@@ -196,7 +185,7 @@ asuttons = InlineKeyboardMarkup(
         [
             InlineKeyboardButton
                 (
-                    "Assistant Info", callback_data="_aci"
+                    "Original Bot", callback_data="_aci"
                 )
         ],
         [
